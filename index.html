@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="YD Studio: desarrollo web, software y soluciones digitales. Convertimos ideas en experiencias digitales.">
+    <meta name="theme-color" content="#f7f7f5">
+
+    <title>YD Studio | Digital Solutions</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#inicio" class="logo" aria-label="YD Studio - Inicio">
+            <img
+                src="assets/images/yd-studio-logo-transparent.png"
+                alt="YD Studio"
+                class="logo-image"
+            >
+        </a>
+
+        <nav class="nav" id="nav" aria-label="Navegación principal">
+            <a href="#inicio" data-i18n="navHome">Inicio</a>
+            <a href="#nosotros" data-i18n="navAbout">Nosotros</a>
+            <a href="#servicios" data-i18n="navServices">Servicios</a>
+            <a href="#proyectos" data-i18n="navProjects">Proyectos</a>
+            <a href="#contacto" data-i18n="navContact">Contacto</a>
+        </nav>
+
+        <div class="header-actions">
+
+            <label class="language-label" for="language-select" data-i18n="languageLabel">
+                Idioma
+            </label>
+
+            <select class="language-select" id="language-select" aria-label="Seleccionar idioma">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="zh">简体中文</option>
+            </select>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav"
+                type="button"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="eyebrow" data-i18n="eyebrow">
+                    ESTUDIO DIGITAL INDEPENDIENTE
+                </span>
+
+                <h1 data-i18n="heroTitle">
+                    Convertimos ideas en experiencias digitales.
+                </h1>
+
+                <p data-i18n="heroDescription">
+                    Diseñamos y desarrollamos soluciones digitales para marcas,
+                    negocios y personas con visión de futuro.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#proyectos" class="button button-dark" data-i18n="heroButton">
+                        Explorar proyectos ↗
+                    </a>
+
+                    <a href="#nosotros" class="text-link" data-i18n="heroSecondary">
+                        Conocer el estudio
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <span data-i18n="heroFooterLeft">
+                    DESARROLLO WEB · SOFTWARE · SOLUCIONES DIGITALES
+                </span>
+
+                <span data-i18n="heroFooterRight">
+                    CON SEDE EN COLOMBIA
+                </span>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="nosotros">
+
+            <div class="section-label">
+                <span>01 /</span>
+                <span data-i18n="aboutLabel">EL ESTUDIO</span>
+            </div>
+
+            <div class="about-content">
+
+                <h2 data-i18n="aboutTitle">
+                    La tecnología es el medio. Las ideas son el comienzo.
+                </h2>
+
+                <div class="about-description">
+
+                    <p data-i18n="aboutParagraph1">
+                        YD Studio es un estudio digital enfocado en crear soluciones
+                        tecnológicas funcionales, atractivas y pensadas para resolver
+                        necesidades reales.
+                    </p>
+
+                    <p data-i18n="aboutParagraph2">
+                        Combinamos desarrollo, creatividad y aprendizaje constante
+                        para transformar conceptos en proyectos digitales.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="servicios">
+
+            <div class="section-label">
+                <span>02 /</span>
+                <span data-i18n="servicesLabel">QUÉ HACEMOS</span>
+            </div>
+
+            <h2 data-i18n="servicesTitle">
+                Soluciones para construir el futuro digital.
+            </h2>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+                    <span class="service-number">01</span>
+
+                    <h3 data-i18n="service1Title">Desarrollo web</h3>
+
+                    <p data-i18n="service1Description">
+                        Sitios web modernos, landing pages y experiencias adaptables
+                        a cualquier pantalla.
+                    </p>
+
+                    <span class="service-arrow">↗</span>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">02</span>
+
+                    <h3 data-i18n="service2Title">Software</h3>
+
+                    <p data-i18n="service2Description">
+                        Herramientas y aplicaciones diseñadas para resolver problemas
+                        y facilitar tareas.
+                    </p>
+
+                    <span class="service-arrow">↗</span>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">03</span>
+
+                    <h3 data-i18n="service3Title">Soluciones digitales</h3>
+
+                    <p data-i18n="service3Description">
+                        Ideas tecnológicas convertidas en proyectos útiles y funcionales.
+                    </p>
+
+                    <span class="service-arrow">↗</span>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="proyectos">
+
+            <div class="section-label">
+                <span>03 /</span>
+                <span data-i18n="projectsLabel">TRABAJO SELECCIONADO</span>
+            </div>
+
+            <div class="projects-heading">
+
+                <h2 data-i18n="projectsTitle">
+                    Proyectos que convierten ideas en realidad.
+                </h2>
+
+                <span data-i18n="portfolioYear">PORTAFOLIO 2026</span>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- BLACK CROWN -->
+                <article class="project-card">
+
+                    <div class="project-visual">
+
+                        <img
+                            src="assets/images/projects/black-crown-preview.png"
+                            alt="Vista previa del sitio web Black Crown Barber Studio"
+                            loading="lazy"
+                            data-i18n-alt="blackCrownAlt"
+                        >
+
+                        <span class="project-overlay">
+                            BLACK CROWN · 2026
+                        </span>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div class="project-description">
+
+                            <span class="project-category" data-i18n="projectCategory">
+                                DESARROLLO WEB
+                            </span>
+
+                            <h3>Black Crown Barber Studio</h3>
+
+                            <p data-i18n="blackCrownDescription">
+                                Sitio web para una barbería con diseño elegante,
+                                presentación de servicios e información de contacto.
+                            </p>
+
+                            <span class="technologies">
+                                HTML5 · CSS3 · RESPONSIVE DESIGN
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="https://yampzx.github.io/Black-Crown/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                            data-i18n="visitProject"
+                        >
+                            Visitar proyecto ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- NAVAJA ROJA -->
+                <article class="project-card">
+
+                    <div class="project-visual">
+
+                        <img
+                            src="assets/images/projects/navaja-roja-barber-preview.png"
+                            alt="Vista previa del sitio web Navaja Roja Barber"
+                            loading="lazy"
+                            data-i18n-alt="navajaRojaAlt"
+                        >
+
+                        <span class="project-overlay">
+                            NAVAJA ROJA · 2026
+                        </span>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div class="project-description">
+
+                            <span class="project-category" data-i18n="projectCategory">
+                                DESARROLLO WEB
+                            </span>
+
+                            <h3>Navaja Roja Barber</h3>
+
+                            <p data-i18n="navajaRojaDescription">
+                                Sitio web para barbería con presentación de servicios,
+                                información del negocio y acceso a reservas por WhatsApp.
+                            </p>
+
+                            <span class="technologies">
+                                HTML5 · CSS3 · RESPONSIVE DESIGN
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="https://yampzx.github.io/Navaja-Roja-Barber/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                            data-i18n="visitProject"
+                        >
+                            Visitar proyecto ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- SABOR & BRASA -->
+                <article class="project-card">
+
+                    <div class="project-visual">
+
+                        <img
+                            src="assets/images/projects/sabor-brasa-preview.png"
+                            alt="Vista previa del sitio web Sabor & Brasa"
+                            loading="lazy"
+                            data-i18n-alt="saborBrasaAlt"
+                        >
+
+                        <span class="project-overlay">
+                            SABOR & BRASA · 2026
+                        </span>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div class="project-description">
+
+                            <span class="project-category" data-i18n="projectCategory">
+                                DESARROLLO WEB
+                            </span>
+
+                            <h3>Sabor & Brasa</h3>
+
+                            <p data-i18n="saborBrasaDescription">
+                                Sitio web para un restaurante de parrilla y cocina
+                                artesanal, con menú, especialidades, galería y reservas.
+                            </p>
+
+                            <span class="technologies">
+                                HTML5 · CSS3 · JAVASCRIPT · RESPONSIVE DESIGN
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="https://yampzx.github.io/Sabor-Brasa/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                            data-i18n="visitProject"
+                        >
+                            Visitar proyecto ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contacto">
+
+            <div class="section-label">
+                <span>04 /</span>
+                <span data-i18n="contactLabel">HABLEMOS</span>
+            </div>
+
+            <h2 data-i18n="contactTitle">
+                ¿Tienes una idea? Hagámosla realidad.
+            </h2>
+
+            <p data-i18n="contactDescription">
+                Estamos abiertos a nuevos proyectos y oportunidades de colaboración.
+            </p>
+
+            <a
+                href="mailto:yampdulce23@gmail.com"
+                class="button button-dark"
+                data-i18n="contactButton"
+            >
+                Hablemos de tu proyecto ↗
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#inicio" class="logo footer-logo" aria-label="YD Studio - Inicio">
+            <img
+                src="assets/images/yd-studio-logo-transparent.png"
+                alt="YD Studio"
+                class="logo-image"
+                loading="lazy"
+            >
+        </a>
+
+        <p>
+            © 2026 YD Studio.
+            <span data-i18n="copyright">Todos los derechos reservados.</span>
+        </p>
+
+        <a href="#inicio" class="back-top" data-i18n="backTop">
+            Volver arriba ↑
+        </a>
+
+    </footer>
+
+</body>
+</html>
